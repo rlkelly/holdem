@@ -1,3 +1,6 @@
+from models.deck import Deck
+
+
 class Dealer(object):
 
     def __init__(self, name, table):
