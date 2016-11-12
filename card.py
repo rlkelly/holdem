@@ -1,4 +1,6 @@
 class Card(object):
+    """ THIS IS A CARD """
+
     def __init__(self, index):
         self.index = index
         self.card_value = index % 13
